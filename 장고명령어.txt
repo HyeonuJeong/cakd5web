@@ -1,0 +1,35 @@
+VSCODE
+
+파일-자동저장
+
+세팅 json
+
+    "terminal.integrated.profiles.windows": {
+        "Cmder": {
+          "path": "${env:windir}\\System32\\cmd.exe",
+          "args": ["/k", "C:\\cmder\\vendor\\bin\\vscode_init.cmd"]
+        }
+      },
+      "terminal.integrated.defaultProfile.windows": "Cmder"
+
+
+git clone https://github.com/HyeonuJeong/cakd5web.git
+
+C:\survey\venv\Scripts\activate.bat
+venv\Scripts\activate.bat
+django-admin startproject myweb .
+
+http://127.0.0.1:8000/
+python manage.py makemigrations
+python manage.py migrate
+python manage.py createsuperuser
+python manage.py runserver
+
+python manage.py migrate
+
+
+
+python manage.py startapp blog
+
+장고 설문조사
+https://heannim-world.tistory.com/34
